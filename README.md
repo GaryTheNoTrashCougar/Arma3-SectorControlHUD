@@ -6,19 +6,19 @@ New scoring system adds 1 point to each team's score every 5 seconds for each se
 
 Editor set-up will require 3 **Sector** modules with **Variable Name** `SectorA`, `SectorB` &amp; `SectorC`, along with **Designation** `A`, `B` & `C` accordingly. Each sector must be sync'd to it's own **Area** locations logic entity, then all sectors sync'd to both **Sides** logic entities `BLUFOR` &amp; `OPFOR`.
 
-![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/SectorSetUp.jpg?raw=true)
+![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/screenshots/SectorSetUp.jpg?raw=true)
 
 Number of sectors can be changed however by editing the **ticketCounter** function in `Score_Bar_Sector.sqf` located in the `Score_Bar` folder & adding/removing the appropriate Sector modules in the editor.
 
-![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/ticketCounter.jpg?raw=true)
+![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/screenshots/ticketCounter.jpg?raw=true)
 
 Example of adding more sectors:
 
-![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/ticketCounterAdd.jpg?raw=true)
+![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/screenshots/ticketCounterAdd.jpg?raw=true)
 
 Example of removing sectors:
 
-![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/ticketCounterRemove.jpg?raw=true)
+![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/screenshots/ticketCounterRemove.jpg?raw=true)
 
 **INSTALLATION**
 
