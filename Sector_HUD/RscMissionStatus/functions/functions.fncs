@@ -1,0 +1,8 @@
+class RscMissionStatus_SC {
+	tag = "SC";
+	class Displays {
+		file = "Sector_HUD\RscMissionStatus\functions";
+		class RscMissionStatus {};
+		class RscMissionStatus_init { postInit = 1; };
+	};
+};

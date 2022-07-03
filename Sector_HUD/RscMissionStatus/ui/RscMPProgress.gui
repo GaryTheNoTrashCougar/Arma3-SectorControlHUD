@@ -1,0 +1,16 @@
+class RscMPProgress_SC
+{
+	idd=-1;
+	duration=9.9999998e+010;
+	fadeIn=0;
+	scriptName="RscMissionStatus_SC";
+	scriptPath="IGUI";
+	onLoad="[""onLoad"",_this,""RscMissionStatus_SC"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')";
+	onUnload="[""onUnload"",_this,""RscMissionStatus_SC"",'IGUI'] call 	(uinamespace getvariable 'BIS_fnc_initDisplay')";
+	class controls
+	{
+		class MPProgress: RscMissionStatus_SC
+		{
+		};
+	};
+};
