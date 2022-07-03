@@ -53,7 +53,7 @@ missionTime =
 		if (countdown > 1)
 		then
 		{
-			if (enemyTickets == 200 && {friendlyTickets < 200}) then
+			if (enemyTickets == scoreLimit && {friendlyTickets < scoreLimit}) then
 			{
 				playMusic "EndLose";
 				["LOSE", false, true, false, false] remoteExec ["BIS_fnc_endMission"];
@@ -61,7 +61,7 @@ missionTime =
 				terminate timeScript;
 				terminate ticketScript;
 			};
-			if (friendlyTickets == 200 && {enemyTickets < 200}) then
+			if (friendlyTickets == scoreLimit && {enemyTickets < scoreLimit}) then
 			{
 				playMusic "EndWin";
 				["WIN", true, true, false, false] remoteExec ["BIS_fnc_endMission"];
@@ -69,7 +69,7 @@ missionTime =
 				terminate timeScript;
 				terminate ticketScript;
 			};
-			if (friendlyTickets == 200 && enemyTickets == 200)
+			if (friendlyTickets == scoreLimit && enemyTickets == scoreLimit)
 			then
 			{
 				playMusic "EndDraw";
