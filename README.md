@@ -20,6 +20,8 @@ Example of removing sectors:
 
 ![Screenshot](https://github.com/GaryTheNoTrashCougar/Arma3-SectorControlHUD/blob/main/ticketCounterRemove.jpg?raw=true)
 
+**INSTALLATION**
+
 Place the files & folders in your mission root folder.<br/>
 You may have to copy & paste the contents of `initServer.sqf`, `initPlayerLocal.sqf` &amp; `description.ext` if you already have these files in your mission.<br/>
 If so please make sure classes in `description.ext` are not already defined (e.g. class CfgMusic). 
