@@ -16,6 +16,19 @@ class CfgFunctions
 	};
 };
 
+class CfgMarkers
+{
+	class Sector
+	{
+		color[] = {1,0,0,1};
+		icon = "\SectorMarkers\data\Sector_ca.paa";
+		name = "Sector";
+		scope = 0;
+		shadow = 1;
+		size = 32;
+	};
+};
+
 #include "Sector_HUD\RscMissionStatus\ui\RscMissionStatus.gui"
 
 class RscTitles
