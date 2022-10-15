@@ -21,7 +21,7 @@ class CfgMarkers
 	class Sector
 	{
 		color[] = {1,0,0,1};
-		icon = "\SectorMarkers\data\Sector_ca.paa";
+		icon = "Sector_HUD\data\Sector_ca.paa";
 		name = "Sector";
 		scope = 0;
 		shadow = 1;
