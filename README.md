@@ -22,7 +22,7 @@ Example of removing sectors:
 
 **INSTALLATION**
 
-Install '_Required Addon_' (Instructions inside folder).
+Install '__Required Addon__' (Instructions inside folder).<br/>
 Place the remaining files & folders in your mission root folder.<br/>
 You may have to copy & paste the contents of `initServer.sqf`, `initPlayerLocal.sqf` &amp; `description.ext` if you already have these files in your mission.<br/>
 If so please make sure classes in `description.ext` are not already defined (e.g. class CfgMusic). 
